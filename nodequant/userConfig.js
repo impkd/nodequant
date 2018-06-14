@@ -22,11 +22,11 @@ MarketData_DBConfig={
 ClientConfig={
 
     CTP:{
-        userID:"888888",
-        password:"888888",
+        userID:"112006",
+        password:"simnow.pkd1",
         brokerID:"9999",
-        mdAddress:"tcp://180.169.68.3:11213",
-        tdAddress:"tcp://180.169.68.3:11205"
+        mdAddress:"tcp://180.168.146.187:10010",
+        tdAddress:"tcp://180.168.146.187:10000"
     }/*,
     Sgit:{
         userID:"888888",

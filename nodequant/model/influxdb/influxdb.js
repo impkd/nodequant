@@ -89,8 +89,9 @@ class InfluxDB{
 
         this.pointsBuffer.push(point);
 
-        if(this.BufferInProgress)
+        if(this.BufferInProgress){
             return;
+        }
 
         if(this.pointsBuffer.length>=this.BufferSize) {
             this.BufferInProgress=true;

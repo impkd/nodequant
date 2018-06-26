@@ -23,7 +23,7 @@ ClientConfig={
 
     CTP:{
         userID:"112006",
-        password:"simnow.pkd1",
+        password:"sim.pkd1",
         brokerID:"9999",
         mdAddress:"tcp://180.168.146.187:10010",
         tdAddress:"tcp://180.168.146.187:10000"
@@ -43,7 +43,7 @@ StrategyConfig={
             name:"Demo",
             className:"DemoStrategy",
             symbols: {
-                "i1805":{
+                "j1809":{
                     //要配置在哪个交易客户端订阅该合约，因为上期CTP和飞鼠Sgit都可以交易商品期货
                     clientName:SupportClients.CTP
                 }
